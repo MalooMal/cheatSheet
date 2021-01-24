@@ -1,0 +1,61 @@
+<!DOCTYPE ="html">
+<html>
+  <head>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class=ball>
+    </div>
+    <header>
+        <h1>css selectors</h1>
+    </header>
+      <main id="centralPolygon">
+          <div id="outerSquare">
+              <div id="innerSquare">
+            <table>
+                <tr>
+                    <th>Selector</th>
+                    <th>Meaning</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>Universal Selector</td>
+                    <td>Applies to all elements in the document</td>
+                    <td>* {} <br>Targets all elements on the page</td>
+                <tr>
+                    <td>Type Selector</td>
+                    <td>Matches element names</td>
+                    <td>h1, h2, h3 {}<br>Targets the h1, h2 and h3 elements</td>
+                </tr>
+                <tr>
+                    <td>Class Selector</td>
+                    <td>Matches an element whose class id attribute has a value that matches the one specified after the period symbol</td>
+                    <td>.note ()<br> Targets any element whose class have a value of note<br>p.note<br>Targets only p elements whose class has a value of note</td>
+                </tr>
+                <tr>
+                    <td>ID Selector</td>
+                    <td>Matches an element whose id attribute has a value that matches the one specified after the hash symbol</td>
+                    <td>#introduction {}<br>Targets the element whose id attribution has a value of introduction</td>
+                    
+                </tr>
+                <tr>
+                    <td>Child Selector</td>
+                    <td>Matches an element that is a direct child of another</td>
+                    <td>li>a {}<br>Targets any a that are children of an li element (but not any other a elements in that page)</td>
+                </tr>
+                <tr>
+                    <td>Descendant Selector</td>
+                    <td>Matches an element that is a descendant of another specified element (not just a direct child of that element)</td>
+                    <td>p a {}<br>Targets any a elements that sit inside a p element, even if there are other elements nested between them</td>
+                </tr>
+                    <td>Adjacent Sibling Selector</td>
+                    <td>General Sibling Selector</td>
+                </tr>
+            </table>
+            </div>
+          </div>
+      </main>
+  </body>
+</html>
