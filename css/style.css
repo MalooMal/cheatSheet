@@ -61,6 +61,7 @@ table{
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     font-size: 13px;
+    border-spacing: 5px;
 }
 
 thead {
@@ -73,6 +74,4 @@ strong {
 
 }
 
-tr {
-    border: 10px #26233D;
-}
+
